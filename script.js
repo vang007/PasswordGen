@@ -23,13 +23,13 @@ function generatePassword() {
   //add upper case letters
     var capsCharactersChoice = confirm("Include the capital letters?")
     if (capsCharactersChoice) {
-    passwordChar += biggieChar;
+    passwordChar += biggie;
 }
 
         //add lower letters
     var lowerCharactersChoice = confirm("Include lowercase letters?");
     if (lowerCharactersChoice) {
-    passwordChar += smallsChar;
+    passwordChar += smalls;
 }
   // add numbers
     var numberCharactersChoice = confirm("Numbers?");
